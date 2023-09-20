@@ -23,7 +23,7 @@ import torch
 
 # Configure environment variables
 # Setting the maximum number of threads that NumExpr can use to 56 to potentially improve performance
-os.environ['NUMEXPR_MAX_THREADS'] = '56'
+os.environ['NUMEXPR_MAX_THREADS'] = '8'
 
 # Set up logging
 # Configuring the basic settings for logging, setting the logging level to INFO, 
